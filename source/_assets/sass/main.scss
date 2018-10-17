@@ -3,5 +3,9 @@
 // --------------------------------------------------
 
 // Our styles and overrides
+@import 'variables';
 @import 'nav';
 @import 'layout';
+
+// Bootstrap Files
+@import 'node_modules/bootstrap/scss/bootstrap';
