@@ -1,3 +1,5 @@
+// main: main.scss
+
 //
 // Color system
 //
@@ -45,11 +47,11 @@ $body-bg:      $white;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-// $font-family-sans-serif: 'Lato', sans-serif;
 // $font-family-base: 'Lato', sans-serif;
 
 // stylelint-enable value-keyword-case
 
+$font-family-sans-serif:      'Roboto', sans-serif;
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 $font-size-lg:                ($font-size-base * 1.25);
 $font-size-sm:                ($font-size-base * .875);
@@ -88,7 +90,7 @@ $zindex-tooltip:                    1070;
 //
 // Settings for navbars
 
-$navbar-height: 45px;
+$navbar-height: 60px;
 $navbar-color: #1d1d1d;
 
 //== Components

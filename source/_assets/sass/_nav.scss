@@ -1,0 +1,55 @@
+// main: main.scss
+
+.main-bar {
+    height: $navbar-height;
+}
+
+.main-bar__logo-wrap {
+    height: 43px;
+    padding: 0 15px;
+    position: relative;
+    width: auto;
+
+    &::before,
+    &::after {
+        @extend %logo-borders;
+    }
+
+    &::before {
+        border-width: 3px 0 0 3px;
+        left: 0;
+        top: 0;
+    }
+
+    &::after {
+        border-width: 3px 3px 0 0;
+        right: 0;
+        top: 0;
+    }
+}
+
+.main-bar__logo-text {
+    font-weight: 300;
+    text-transform: uppercase;
+
+    &::before,
+    &::after {
+        @extend %logo-borders;
+    }
+
+    &::before {
+        border-width: 0 3px 3px 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    &::after {
+        border-width: 0 0 3px 3px;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.main-bar__link {
+    text-transform: uppercase;
+}

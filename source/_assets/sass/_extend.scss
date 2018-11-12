@@ -1,0 +1,10 @@
+// main: main.scss
+
+%logo-borders {
+    border-color: $black;
+    border-style: solid;
+    content: '';
+    height: 12px;
+    position: absolute;
+    width: 12px;
+}

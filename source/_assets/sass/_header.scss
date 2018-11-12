@@ -1,0 +1,14 @@
+// main: main.scss
+
+.website-header {
+    align-items: center;
+    background: #ddd;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: -($navbar-height);
+}
+
+.website-header__title {
+    font-size: $h1-font-size;
+}
