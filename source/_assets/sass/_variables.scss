@@ -17,6 +17,8 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
+$primary:  #375872;
+
 $grays: () !default;
 $grays: map-merge((
   "100": $gray-100,
@@ -51,7 +53,7 @@ $body-bg:      $white;
 
 // stylelint-enable value-keyword-case
 
-$font-family-sans-serif:      'Roboto', sans-serif;
+$font-family-sans-serif:      'Lato', sans-serif;
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 $font-size-lg:                ($font-size-base * 1.25);
 $font-size-sm:                ($font-size-base * .875);
